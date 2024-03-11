@@ -1,4 +1,5 @@
 import './App.css';
+import Storage from './components/Storage';
 import Auth from './components/auth';
 import Movies from './components/movies';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Auth/>
       <Movies/>
+      <Storage/>
     </div>
   );
 }
